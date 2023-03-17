@@ -1,0 +1,21 @@
+Creational DP:
+
+Factory DP:OS
+Singleton:
+Builder:MultipleFields
+Prototype:BookShop using clone
+Composite:leaf and composite component
+
+
+Structural DP:
+
+Facade:LaptopswtichOn
+Adaptor:PilotPen
+Brdige:NotficationService(QR or text)
+Decorator:CofeeHouse;
+
+Behavioral DP:
+
+ChainOfResponsibility:SalaryApproval
+Strategy:TVPlayer
+Observable:Channel&Subscriber
