@@ -1,0 +1,20 @@
+<input [(name)]="variableNmae" (change)="fun($event.target.value)" />
+select tag
+eventEmitter in angular
+@Input
+@Ouput
+Subjects
+Observables.
+Promise
+Behavioral
+Service
+HookUps
+ngOnChange()
+onInit()
+ngDoCheck()
+ngAfterContentInit(): Respond after Angular projects external content into the component's view. Called once after the first ngDoCheck().
+ngAfterContentCheck() : Respond after Angular checks the content projected into the component. Called after the ngAfterContentInit() and every subsequent ngDoCheck().
+ngAfterViewInit(): Respond after Angular initializes the component's views and child views. Called once after the first ngAfterContentChecked().
+ngAfterViewCheck():  Respond after Angular checks the component's views and child views. Called after the ngAfterViewInit and every subsequent ngAfterContentChecked().
+ngOnDestroy()
+

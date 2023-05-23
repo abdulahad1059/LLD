@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 
 class ElevatorSystem {
@@ -34,7 +35,7 @@ interface ButtonPanel {
 }
 
 class InsideButtonPanel {
-    map<Integer, String> m;
+    HashMap<Integer, String> m;
 
     sendNotificationToDespatcher(int currentFloor, int targetFloor, boolean calCUlate);
 }
