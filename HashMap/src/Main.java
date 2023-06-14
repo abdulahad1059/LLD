@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 class OurMap<K, V> {
     List<MyMap<K, V>> bucketList;
@@ -97,6 +99,14 @@ class MyMap<K, V> {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+//        System.out.println("Hello world!");
+          Map<String,Integer> m=new HashMap<>();
+          m.put("Ahad",3);
+          m.put("Samad",3);
+          for(Map.Entry<String,Integer> temp:m.entrySet())
+          {
+              System.out.println(temp);
+          }
+
     }
 }
